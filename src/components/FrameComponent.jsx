@@ -1,4 +1,44 @@
 import PropTypes from "prop-types";
+import { Line } from 'react-chartjs-2';
+
+const data = {
+  labels: ['January', 'February', 'March', 'April'],
+  datasets: [
+    {
+      label: 'Dataset',
+      data: [65, 604, 68, 598, 56, 605, 40],
+      fill: false,
+      borderColor: 'rgb(150, 150, 150)',
+      tension: 0.1
+    }
+  ]
+};
+
+const config = {
+  type: 'line',
+  data: data,
+  options: {
+    animations: {
+      radius: {
+        duration: 400,
+        easing: 'linear',
+        loop: (context) => context.active
+      }
+    },
+    hoverRadius: 6,
+    hoverBackgroundColor: 'black',
+    interaction: {
+      mode: 'nearest',
+      intersect: false,
+      axis: 'x'
+    },
+    plugins: {
+      tooltip: {
+        enabled: false
+      }
+    }
+  }
+};
 
 const FrameComponent = ({ className = "", trips, prop, group6 }) => {
   return (
@@ -14,12 +54,9 @@ const FrameComponent = ({ className = "", trips, prop, group6 }) => {
             {prop}
           </div>
         </div>
-        <img
-          className="h-[54px] w-[150.6px] relative"
-          loading="lazy"
-          alt=""
-          src={group6}
-        />
+          <div className="h-[100px] w-[150.6px] relative">
+          <Line data={config.data} options={config.options} />
+          </div>
       </div>
     </div>
   );

@@ -12,6 +12,7 @@ import Client1 from "./pages/Client1";
 import DocumentUploaded from "./pages/DocumentUploaded";
 import Aircraft from "./pages/Aircraft";
 import BankDetail from "./pages/BankDetail";
+// import PhoneNumber from "./components/PhoneNumber";
 
 function App() {
   const action = useNavigationType();

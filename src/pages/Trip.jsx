@@ -10,6 +10,7 @@ const Trip = () => {
   return (
     <div className="w-full relative bg-gray-6 overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal]">
       <HeaderDarkHeader />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <main className="self-stretch flex flex-row items-start justify-start py-0 pr-7 pl-0 box-border gap-[32px] max-w-full mq750:gap-[16px] mq1025:pl-7 mq1025:box-border">
         <SideNavSampleSideNav2 />
         <section className="flex-1 flex flex-col items-start justify-start pt-[13px] px-0 pb-0 box-border max-w-[calc(100%_-_292px)] text-left text-lg text-gray-1 font-medium-24 mq1025:max-w-full">
@@ -31,7 +32,7 @@ const Trip = () => {
                 />
                 <div className="flex flex-row items-start justify-start gap-[8px]">
                   <a className="[text-decoration:none] w-4 relative text-base font-font-awesome-icon-solid-16 text-gray-6 text-center flex items-center justify-center shrink-0">
-                    plus
+                <i class="fa-solid fa-plus"></i>               
                   </a>
                   <div className="relative text-sm tracking-[0.01em] leading-[16px] uppercase font-medium font-body text-gray-6 text-left inline-block min-w-[127px]">
                     Create new Trip
@@ -86,7 +87,7 @@ const Trip = () => {
                   <a className="[text-decoration:none] relative leading-[18px] font-semibold text-[inherit] inline-block min-w-[31px]">
                     Stats
                   </a>
-                  <a className="[text-decoration:none] w-28 relative leading-[18px] font-semibold text-[inherit] text-right inline-block shrink-0">
+                  <a className="[text-decoration:none] w-28 relative leading-[18px] font-semibold text-[inherit] text-right inline-block shrink-0 -translate-x-16">
                     Actions
                   </a>
                 </div>
@@ -163,13 +164,13 @@ const Trip = () => {
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] flex items-center justify-center w-4 h-[19px] z-[1]">
-                        trash
+                      <i class="fa-solid fa-trash"></i>
                       </div>
                     </div>
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] leading-[19px] flex items-center justify-center w-4 h-4 whitespace-nowrap z-[1]">
-                        ellipsis-v
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
                       </div>
                     </div>
                   </div>
@@ -247,13 +248,13 @@ const Trip = () => {
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] flex items-center justify-center w-4 h-[19px] z-[1]">
-                        trash
+                      <i class="fa-solid fa-trash"></i>
                       </div>
                     </div>
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] leading-[19px] flex items-center justify-center w-4 h-4 whitespace-nowrap z-[1]">
-                        ellipsis-v
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
                       </div>
                     </div>
                   </div>
@@ -330,13 +331,13 @@ const Trip = () => {
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] flex items-center justify-center w-4 h-[19px] z-[1]">
-                        trash
+                      <i class="fa-solid fa-trash"></i>
                       </div>
                     </div>
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] leading-[19px] flex items-center justify-center w-4 h-4 whitespace-nowrap z-[1]">
-                        ellipsis-v
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
                       </div>
                     </div>
                   </div>
@@ -413,13 +414,13 @@ const Trip = () => {
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] flex items-center justify-center w-4 h-[19px] z-[1]">
-                        trash
+                      <i class="fa-solid fa-trash"></i>
                       </div>
                     </div>
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] leading-[19px] flex items-center justify-center w-4 h-4 whitespace-nowrap z-[1]">
-                        ellipsis-v
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
                       </div>
                     </div>
                   </div>
@@ -496,13 +497,13 @@ const Trip = () => {
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] flex items-center justify-center w-4 h-[19px] z-[1]">
-                        trash
+                      <i class="fa-solid fa-trash"></i>
                       </div>
                     </div>
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] leading-[19px] flex items-center justify-center w-4 h-4 whitespace-nowrap z-[1]">
-                        ellipsis-v
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
                       </div>
                     </div>
                   </div>
@@ -579,13 +580,13 @@ const Trip = () => {
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] flex items-center justify-center w-4 h-[19px] z-[1]">
-                        trash
+                      <i class="fa-solid fa-trash"></i>
                       </div>
                     </div>
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] leading-[19px] flex items-center justify-center w-4 h-4 whitespace-nowrap z-[1]">
-                        ellipsis-v
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
                       </div>
                     </div>
                   </div>
@@ -662,13 +663,13 @@ const Trip = () => {
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] flex items-center justify-center w-4 h-[19px] z-[1]">
-                        trash
+                      <i class="fa-solid fa-trash"></i>
                       </div>
                     </div>
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] leading-[19px] flex items-center justify-center w-4 h-4 whitespace-nowrap z-[1]">
-                        ellipsis-v
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
                       </div>
                     </div>
                   </div>
@@ -745,13 +746,13 @@ const Trip = () => {
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] flex items-center justify-center w-4 h-[19px] z-[1]">
-                        trash
+                      <i class="fa-solid fa-trash"></i>
                       </div>
                     </div>
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] leading-[19px] flex items-center justify-center w-4 h-4 whitespace-nowrap z-[1]">
-                        ellipsis-v
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
                       </div>
                     </div>
                   </div>
@@ -828,13 +829,13 @@ const Trip = () => {
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] flex items-center justify-center w-4 h-[19px] z-[1]">
-                        trash
+                      <i class="fa-solid fa-trash"></i>
                       </div>
                     </div>
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] leading-[19px] flex items-center justify-center w-4 h-4 whitespace-nowrap z-[1]">
-                        ellipsis-v
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
                       </div>
                     </div>
                   </div>
@@ -911,13 +912,13 @@ const Trip = () => {
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] flex items-center justify-center w-4 h-[19px] z-[1]">
-                        trash
+                      <i class="fa-solid fa-trash"></i>
                       </div>
                     </div>
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] leading-[19px] flex items-center justify-center w-4 h-4 whitespace-nowrap z-[1]">
-                        ellipsis-v
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
                       </div>
                     </div>
                   </div>
@@ -994,13 +995,13 @@ const Trip = () => {
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] flex items-center justify-center w-4 h-[19px] z-[1]">
-                        trash
+                      <i class="fa-solid fa-trash"></i>
                       </div>
                     </div>
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] leading-[19px] flex items-center justify-center w-4 h-4 whitespace-nowrap z-[1]">
-                        ellipsis-v
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
                       </div>
                     </div>
                   </div>
@@ -1077,13 +1078,13 @@ const Trip = () => {
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] flex items-center justify-center w-4 h-[19px] z-[1]">
-                        trash
+                      <i class="fa-solid fa-trash"></i>
                       </div>
                     </div>
                     <div className="h-8 flex-1 relative">
                       <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                       <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] leading-[19px] flex items-center justify-center w-4 h-4 whitespace-nowrap z-[1]">
-                        ellipsis-v
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
                       </div>
                     </div>
                   </div>

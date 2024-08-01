@@ -5,6 +5,7 @@ const Aircraft = () => {
   return (
     <div className="w-full relative bg-gray-6 overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal]">
       <HeaderDarkHeader />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <main className="self-stretch flex flex-row items-start justify-start py-0 pr-7 pl-0 box-border gap-[32px] max-w-full mq725:gap-[16px] mq1000:pl-7 mq1000:box-border">
         <SideNavSampleSideNav5 />
         <section className="flex-1 flex flex-col items-start justify-start pt-[13px] px-0 pb-0 box-border max-w-[calc(100%_-_292px)] text-left text-lg text-gray-1 font-medium-24 mq1000:max-w-full">
@@ -24,7 +25,7 @@ const Aircraft = () => {
                   />
                   <div className="flex flex-row items-start justify-start gap-[8px]">
                     <a className="[text-decoration:none] w-4 relative text-[inherit] flex items-center justify-center shrink-0">
-                      plus
+                <i class="fa-solid fa-plus"></i>               
                     </a>
                     <div className="relative text-sm tracking-[0.01em] leading-[16px] uppercase font-medium font-body text-white text-left inline-block min-w-[105px]">
                       Add Aircraft

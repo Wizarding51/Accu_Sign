@@ -7,8 +7,9 @@ const Client1 = () => {
       <div className="w-[285px] h-0 relative leading-[24px] hidden">
         Alert dialog prompt
       </div>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <HeaderDarkHeader />
-      <main className="w-[1428px] flex flex-row items-start justify-start py-0 pr-5 pl-0 box-border gap-[32px] max-w-full mq725:gap-[16px] mq1000:pl-5 mq1000:box-border">
+      <main className="w-full flex flex-row items-start justify-start py-0 pr-5 pl-0 box-border gap-[32px] max-w-full mq725:gap-[16px] mq1000:pl-5 mq1000:box-border">
         <SideNavSampleSideNav3 />
         <section className="flex-1 flex flex-col items-start justify-start pt-[13px] px-0 pb-0 box-border max-w-[calc(100%_-_292px)] text-left text-lg text-gray-1 font-medium-24 mq1000:max-w-full">
           <div className="self-stretch flex flex-col items-start justify-start gap-[18px] max-w-full">
@@ -25,9 +26,7 @@ const Client1 = () => {
                   src="/body-placeholder2.svg"
                 />
                 <div className="flex flex-row items-start justify-start gap-[8px]">
-                  <a className="[text-decoration:none] w-4 relative text-[inherit] flex items-center justify-center shrink-0">
-                    plus
-                  </a>
+                <i class="fa-solid fa-plus"></i>               
                   <div className="relative text-sm tracking-[0.01em] leading-[16px] uppercase font-medium font-body text-left inline-block min-w-[101px]">
                     Create Crew
                   </div>
@@ -38,7 +37,7 @@ const Client1 = () => {
               <div className="h-[745px] w-[1116px] relative rounded bg-white box-border hidden max-w-full z-[1] border-[1px] border-solid border-light" />
               <div className="flex-1 flex flex-col items-start justify-start pt-[47.5px] px-0 pb-0 box-border max-w-full">
                 <div className="self-stretch flex flex-row flex-wrap items-start justify-start py-2 pr-4 pl-6 box-border relative gap-[20px] max-w-full z-[1]">
-                  <div className="h-full w-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] shadow-[0px_-1px_0px_rgba(0,_0,_0,_0.12)_inset] bg-white" />
+                  <div className="h-full w-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] shadow-[0px_-1px_0px_rgba(0,_0,_0,_0.12)_inset] bg-white " />
                   <div className="h-12 w-[1094px] relative shadow-[0px_-1px_0px_rgba(0,_0,_0,_0.12)_inset] bg-core-gray-lightest hidden max-w-full z-[1]" />
                   <input className="m-0 h-[26px] w-5" type="checkbox" />
                   <div className="flex-1 flex flex-row items-start justify-start gap-[32px] min-w-[659px] max-w-full z-[1] mq725:gap-[16px] mq1000:flex-wrap mq1000:min-w-full">
@@ -60,7 +59,7 @@ const Client1 = () => {
                       </div>
                     </div>
                     <div className="flex-1 flex flex-col items-start justify-start pt-[7px] px-0 pb-0 box-border max-w-full text-xs mq725:min-w-full">
-                      <div className="self-stretch flex flex-row items-start justify-between gap-[20px] mq1000:flex-wrap">
+                      <div className="self-stretch flex  flex-row items-start justify-between gap-[20px] mq1000:flex-wrap">
                         <a className="[text-decoration:none] w-[159px] relative leading-[18px] font-semibold text-[inherit] inline-block shrink-0">
                           Name
                         </a>
@@ -108,13 +107,13 @@ const Client1 = () => {
                       <div className="h-8 flex-1 relative">
                         <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                         <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] flex items-center justify-center w-4 h-[19px] z-[1]">
-                          trash
+                      <i class="fa-solid fa-trash"></i>
                         </div>
                       </div>
                       <div className="h-8 flex-1 relative">
                         <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver opacity-[0]" />
                         <div className="absolute top-[calc(50%_-_8px)] left-[calc(50%_-_8px)] leading-[19px] flex items-center justify-center w-4 h-4 whitespace-nowrap z-[1]">
-                          ellipsis-v
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
                         </div>
                       </div>
                     </div>
@@ -122,11 +121,11 @@ const Client1 = () => {
                 </div>
               </div>
               <div className="flex-[0.9634] flex flex-row flex-wrap items-start justify-start py-3.5 pr-4 pl-6 box-border relative gap-[20px] max-w-full z-[2] ml-[-1094px] text-xs text-gray-1">
-                <div className="h-full w-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] shadow-[0px_-1px_0px_rgba(0,_0,_0,_0.12)_inset] bg-white" />
+                <div className="h-full w-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] shadow-[0px_-1px_0px_rgba(0,_0,_0,_0.12)_inset] bg-white  translate-x-[125px]" />
                 <div className="h-5 w-5 relative rounded-sm bg-white box-border opacity-[0] z-[1] border-[2px] border-solid border-secondary" />
                 <div className="hidden flex-row items-center justify-center gap-[32px] max-w-full z-[2] mq1050:flex-wrap">
                   <img
-                    className="self-stretch w-[194px] relative max-h-full overflow-hidden shrink-0 min-h-[12px]"
+                    className="self-stretch w-[194px] relative max-h-full overflow-hidden shrink-0 min-h-[12px]" 
                     alt=""
                     src="/text1.svg"
                   />
@@ -151,7 +150,7 @@ const Client1 = () => {
                     src="/text-51.svg"
                   />
                 </div>
-                <div className="flex-1 flex flex-col items-start justify-start pt-px px-0 pb-0 box-border min-w-[659px] max-w-full mq1000:min-w-full">
+                <div className="flex-1 flex flex-col items-start justify-start pt-px px-0 pb-0 box-border min-w-[659px] max-w-full mq1000:min-w-full translate-x-[125px]">
                   <div className="self-stretch flex flex-row items-start justify-start gap-[32px] z-[1] mq725:gap-[16px] mq1000:flex-wrap">
                     <a className="[text-decoration:none] flex-1 relative leading-[18px] font-semibold text-[inherit] inline-block min-w-[67px]">
                       Name
